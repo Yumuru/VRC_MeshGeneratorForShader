@@ -10,7 +10,7 @@ VRChatのシェーダーのために、次に示すメッシュを生成する�
 このリポジトリをzipでダウンロードして中身を、Assets/フォルダに入れる<br>
 もしくは<br>
 Packages/manifest.jsonのdependenciesに次の行を挿入<br>
-"vrc_meshgenerator_for_shader: "https://github.com/Yumuru/VRC_MeshGeneratorForShader.git"
+"vrc_meshgenerator_for_shader": "https://github.com/Yumuru/VRC_MeshGeneratorForShader.git"
 
 ## 使用法
 Unity上部メニューの
