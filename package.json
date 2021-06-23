@@ -1,0 +1,10 @@
+{
+  "name": "vrc_meshgenerator_for_shader",
+  "displayName": "VRC_MeshGeneratorForShader",
+  "version": "0.1.0",
+  "unity": "2018.4",
+  "description": "This Editor generate point poly and copy of mesh",
+  "keywords": [ "" ],
+  "dependencies": {
+  }
+}
