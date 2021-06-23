@@ -21,7 +21,7 @@ Editor/MeshGenerator
 
 エディタ画面上、
 - Num は Point Polygonの数または、複製するメッシュの数
-- Rename? は 生成するメッシュの名前を設定するかどうが。特に、メッシュを複製するときに使う。
+- Rename? は 生成するメッシュの名前を設定するかどうか。特に、メッシュを複製するときに使う。
   - Rename Name はメッシュの名前を指定
 - Set Bounce? は Bounceの設定
   - Bounce Size は Bounceのサイズの指定
