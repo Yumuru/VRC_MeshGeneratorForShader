@@ -1,4 +1,4 @@
-Shader "Custom/Particle/#SCRIPTNAME#" {
+Shader "Custom/GPUParticle/NewShader" {
 	Properties {
     _ParticleSize ("Particle Size", Float) = 1.0
 	}
@@ -43,7 +43,7 @@ Shader "Custom/Particle/#SCRIPTNAME#" {
 					// positionの指定
           float3 pos = 0;
           pos.z += id;
-					
+
           o.texcoord = float4(i % 2, i / 2, 0, 0);
           float2 vert = (float2(i % 2, i / 2) - .5) * _ParticleSize;
           o.vertex = mul(UNITY_MATRIX_P, float4(UnityObjectToViewPos(float4(pos, 1)), 1.) + float4(vert, 0, 0));
