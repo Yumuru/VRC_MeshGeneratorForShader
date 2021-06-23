@@ -1,7 +1,7 @@
 VRChatのシェーダーのために、次に示すメッシュを生成するUnityパッケージ
-・GPUパーティクル用のpoint polygonメッシュ
-・元となるメッシュを複製して1つのShaderで扱えるメッシュ。
-・Bounceが設定されたメッシュ。
+- GPUパーティクル用のpoint polygonメッシュ
+- 元となるメッシュを複製して1つのShaderで扱えるメッシュ。
+- Bounceが設定されたメッシュ。
 
 Unity上部メニューの
 Editor/MeshGenerator
